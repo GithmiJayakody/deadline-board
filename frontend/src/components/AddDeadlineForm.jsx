@@ -32,7 +32,7 @@ function AddDeadlineForm({ onAdd, onClose }) {
         />
         <input
           type="text"
-          placeholder="Subject (e.g. Digital Electronics)"
+          placeholder="Subject (e.g. Analog Electronics)"
           value={subject}
           onChange={(e) => setSubject(e.target.value)}
           className="w-full border rounded px-3 py-2 mb-3"
